@@ -33,8 +33,7 @@ EOS_token = 2  # End-of-sentence token
 
 USE_CUDA = torch.cuda.is_available()
 device = torch.device("cuda" if USE_CUDA else "cpu")
-
-corpus_name = "D:/New_desktop/Qbot/Kevinpro/Seq2Seq"
+corpus_name = "D:/KevinproPython/workspace/KevinproQQBot/Kevinpro/Seq2Seq"
 corpus = os.path.join(corpus_name,"data")
 save_dir = os.path.join(corpus, "save")
 datafile = os.path.join(corpus, "formatted_movie_lines.txt")
