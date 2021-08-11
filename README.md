@@ -13,17 +13,17 @@
 主要框架：
 
 ```
-gocqhttp                          -------- QQ消息的捕获
-Kevinpro                          -------- 接受捕获的消息并处理
-	bot_plugins                   -------- 插件实现
-		dialogue.py               -------- 对话算法
-		ping.py                   -------- 测试用
-		weather.py                -------- 查询天气
-		zhihutop.py               -------- 获取知乎热榜
-	services                      --------为插件提供支持
+gocqhttp                          
+Kevinpro                          
+	bot_plugins                   
+		dialogue.py              
+		ping.py                   
+		weather.py                
+		zhihutop.py               
+	services                      
 		...略
-	bot.py                        -------- 主函数
-	bot_config.py                 -------- 配置文件
+	bot.py                       
+	bot_config.py               
 	
 ```
 
