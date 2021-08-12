@@ -16,6 +16,17 @@ for i in pairs_dict:
         query.append(j['qas'][0]['question'])
         answer.append(j['qas'][0]['answers'][0]['text'])
 
+option_corpus = ['./data/chatterbot.tsv','./data/xiaohuangji.tsv','./data/qingyun.tsv']
+for i in option_corpus:
+    f = open(i,'r',encoding='utf-8')
+    lines = f.readlines()
+    for k in lines:
+        q = k.split('\t')[0]
+        a = k.split('\t')[1]
+        query.append(q)
+        answer.append(a)
+
+print("Corpus Size : {}".format(len(query)))
 import jieba
 
 import jieba.analyse
@@ -43,11 +54,13 @@ def search(question):
             max_sim = cur_sim
             best_match_q = query[i]
             best_match_a = answer[i]
-    print()
     print(max_sim)
-    if max_sim <= 0.2:
+    print("匹配问题: " + best_match_q + " == 回答: " + best_match_a)
+    if max_sim <= 0.4:
         best_match_a = "我暂时无法回答这个问题"
-    return "匹配问题: " + best_match_q + " == 回答: " + best_match_a
+    
+    #return "匹配问题: " + best_match_q + " == 回答: " + best_match_a
+    return best_match_a
 
 
 

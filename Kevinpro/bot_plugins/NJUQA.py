@@ -8,7 +8,7 @@ from jieba import posseg
 
 __plugin_name__ = '问答'
 __plugin_usage__ = (
-    '用法：\n'
+    '用法：问答，使用NJU问答语料\n'
 )
 
 
