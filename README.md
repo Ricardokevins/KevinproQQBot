@@ -2,13 +2,15 @@
 
 基于NoneBot的实现的QQ机器人，欢迎PR，提交新的插件
 
+
+
 本项目自然语言处理内核：[Ricardokevins/Kevinpro-NLP-demo: 个人的NLP实践demo，包含了分类，对话机器人，文本摘要，关系抽取以及对抗训练，知识蒸馏等pytorch实现 (github.com)](https://github.com/Ricardokevins/Kevinpro-NLP-demo)
 
 
 
 # 主要框架
 
-```
+```python
 gocqhttp                          
 Kevinpro                          
 	bot_plugins                   
@@ -16,7 +18,7 @@ Kevinpro
 		ping.py                   
 		weather.py                
 		zhihutop.py
-        NJUQA.py
+		NJUQA.py
 	services                      
 		...略
 	bot.py                       
@@ -56,7 +58,7 @@ Kevinpro
 
 感谢如下的所有参考资源
 
-参考1：NoneBot
+参考1：NoneBot：[nonebot/nonebot: 基于 OneBot 标准的 Python 异步 QQ 机器人框架 / Asynchronous QQ robot framework based on OneBot for Python (github.com)](https://github.com/nonebot/nonebot)
 
 参考2：语料来源：[codemayq/chinese_chatbot_corpus: 中文公开聊天语料库 (github.com)](https://github.com/codemayq/chinese_chatbot_corpus)
 
