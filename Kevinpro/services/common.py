@@ -14,7 +14,11 @@ class ServiceException(Exception):
 
 
 async def fetch_text(uri: str) -> str:
-    async with AsyncClient(headers={ 'User-Agent': 'box-s-ville.luciabot' }) as client:
+    # https://zhuanlan.zhihu.com/p/259674921
+    proxies = {
+    "all://": None,
+    }
+    async with AsyncClient(headers={ 'User-Agent': 'box-s-ville.luciabot'},proxies = proxies) as client:
         try:
             res = await client.get(uri)
             res.raise_for_status()

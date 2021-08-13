@@ -17,8 +17,12 @@ def save_hot_list() -> None:
         ('reverse_order', '0'),
     )
     # 发送请求
+    # proxies = {
+    # "http": "http://127.0.0.1:7890",
+    # }
+    proxies = {'http': None, 'https': None}
     response = requests.get(
-        'https://zhihu.com/topstory/hot-list', headers=headers, params=params)
+        'https://zhihu.com/topstory/hot-list', proxies=proxies,headers=headers, params=params)
 
     items = response.json()['data']
     rows = []

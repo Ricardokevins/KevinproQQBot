@@ -1,0 +1,87 @@
+[2021-08-13 08:46:07] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 08:46:12] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 08:46:17] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 08:46:22] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 08:46:27] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 08:46:32] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 08:46:38] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:13:24] [WARNING]: 监听反向WS API时出现错误: websocket: close 1000 (normal) 
+[2021-08-13 09:13:25] [WARNING]: 向WS服务器 127.0.0.1:8765 推送Event时出现错误: websocket: close sent 
+[2021-08-13 09:13:30] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:15:58] [WARNING]: 监听反向WS API时出现错误: websocket: close 1000 (normal) 
+[2021-08-13 09:16:00] [WARNING]: 向WS服务器 127.0.0.1:8765 推送Event时出现错误: websocket: close sent 
+[2021-08-13 09:16:05] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:19:32] [WARNING]: 监听反向WS API时出现错误: websocket: close 1000 (normal) 
+[2021-08-13 09:19:35] [WARNING]: 向WS服务器 127.0.0.1:8765 推送Event时出现错误: websocket: close sent 
+[2021-08-13 09:20:04] [WARNING]: 监听反向WS API时出现错误: websocket: close 1000 (normal) 
+[2021-08-13 09:20:05] [WARNING]: 向WS服务器 127.0.0.1:8765 推送Event时出现错误: websocket: close sent 
+[2021-08-13 09:20:10] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:21:36] [WARNING]: 监听反向WS API时出现错误: websocket: close 1000 (normal) 
+[2021-08-13 09:21:40] [WARNING]: 向WS服务器 127.0.0.1:8765 推送Event时出现错误: websocket: close sent 
+[2021-08-13 09:22:34] [WARNING]: 监听反向WS API时出现错误: websocket: close 1000 (normal) 
+[2021-08-13 09:22:35] [WARNING]: 向WS服务器 127.0.0.1:8765 推送Event时出现错误: websocket: close sent 
+[2021-08-13 09:22:40] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:25:33] [WARNING]: 监听反向WS API时出现错误: websocket: close 1000 (normal) 
+[2021-08-13 09:25:35] [WARNING]: 向WS服务器 127.0.0.1:8765 推送Event时出现错误: websocket: close sent 
+[2021-08-13 09:25:40] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:25:45] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:35:40] [WARNING]: 监听反向WS API时出现错误: websocket: close 1000 (normal) 
+[2021-08-13 09:35:40] [WARNING]: 向WS服务器 127.0.0.1:8765 推送Event时出现错误: websocket: close sent 
+[2021-08-13 09:35:45] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:35:50] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:35:55] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:36:00] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:36:05] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:36:10] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:36:15] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:36:20] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:36:25] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:36:31] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:36:36] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:36:41] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:36:46] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:36:51] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:36:56] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:37:01] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:37:30] [WARNING]: 监听反向WS API时出现错误: websocket: close 1000 (normal) 
+[2021-08-13 09:37:30] [WARNING]: 向WS服务器 127.0.0.1:8765 推送Event时出现错误: websocket: close sent 
+[2021-08-13 09:37:35] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:37:56] [WARNING]: 监听反向WS API时出现错误: websocket: close 1000 (normal) 
+[2021-08-13 09:38:00] [WARNING]: 向WS服务器 127.0.0.1:8765 推送Event时出现错误: websocket: close sent 
+[2021-08-13 09:38:05] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:38:47] [WARNING]: 监听反向WS API时出现错误: websocket: close 1000 (normal) 
+[2021-08-13 09:38:50] [WARNING]: 向WS服务器 127.0.0.1:8765 推送Event时出现错误: websocket: close sent 
+[2021-08-13 09:38:55] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:38:58] [WARNING]: 向WS服务器 127.0.0.1:8765 推送Event时出现错误: websocket: close sent 
+[2021-08-13 09:41:04] [WARNING]: 监听反向WS API时出现错误: websocket: close 1000 (normal) 
+[2021-08-13 09:41:04] [WARNING]: 监听反向WS API时出现错误: websocket: close 1000 (normal) 
+[2021-08-13 09:41:05] [WARNING]: 向WS服务器 127.0.0.1:8765 推送Event时出现错误: websocket: close sent 
+[2021-08-13 09:43:28] [WARNING]: 监听反向WS API时出现错误: websocket: close 1000 (normal) 
+[2021-08-13 09:43:30] [WARNING]: 向WS服务器 127.0.0.1:8765 推送Event时出现错误: websocket: close sent 
+[2021-08-13 09:43:35] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:44:50] [WARNING]: 监听反向WS API时出现错误: websocket: close 1000 (normal) 
+[2021-08-13 09:44:50] [WARNING]: 向WS服务器 127.0.0.1:8765 推送Event时出现错误: websocket: close sent 
+[2021-08-13 09:44:55] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:45:00] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:46:11] [WARNING]: 监听反向WS API时出现错误: websocket: close 1000 (normal) 
+[2021-08-13 09:46:15] [WARNING]: 向WS服务器 127.0.0.1:8765 推送Event时出现错误: websocket: close sent 
+[2021-08-13 09:46:20] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:46:25] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:46:30] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:52:05] [WARNING]: 监听反向WS API时出现错误: read tcp 127.0.0.1:12073->127.0.0.1:8765: wsarecv: An existing connection was forcibly closed by the remote host. 
+[2021-08-13 09:52:05] [WARNING]: 向WS服务器 127.0.0.1:8765 推送Event时出现错误: write tcp 127.0.0.1:12073->127.0.0.1:8765: wsasend: An existing connection was forcibly closed by the remote host. 
+[2021-08-13 09:52:10] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:52:15] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:52:20] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 09:55:07] [WARNING]: 监听反向WS API时出现错误: websocket: close 1000 (normal) 
+[2021-08-13 09:55:10] [WARNING]: 向WS服务器 127.0.0.1:8765 推送Event时出现错误: websocket: close sent 
+[2021-08-13 09:56:07] [WARNING]: 监听反向WS API时出现错误: websocket: close 1000 (normal) 
+[2021-08-13 09:56:10] [WARNING]: 向WS服务器 127.0.0.1:8765 推送Event时出现错误: websocket: close sent 
+[2021-08-13 09:57:41] [WARNING]: 监听反向WS API时出现错误: websocket: close 1000 (normal) 
+[2021-08-13 09:57:45] [WARNING]: 向WS服务器 127.0.0.1:8765 推送Event时出现错误: websocket: close sent 
+[2021-08-13 09:58:49] [WARNING]: 监听反向WS API时出现错误: websocket: close 1000 (normal) 
+[2021-08-13 09:58:50] [WARNING]: 向WS服务器 127.0.0.1:8765 推送Event时出现错误: websocket: close sent 
+[2021-08-13 09:58:55] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-08-13 10:01:16] [WARNING]: 监听反向WS API时出现错误: websocket: close 1000 (normal) 
+[2021-08-13 10:01:20] [WARNING]: 向WS服务器 127.0.0.1:8765 推送Event时出现错误: websocket: close sent 
+[2021-08-13 10:01:23] [WARNING]: 向WS服务器 127.0.0.1:8765 推送Event时出现错误: websocket: close sent 

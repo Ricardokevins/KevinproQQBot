@@ -30,6 +30,13 @@ print("Corpus Size : {}".format(len(query)))
 import jieba
 
 import jieba.analyse
+import jieba
+import jieba.analyse
+import numpy as np
+
+
+
+
 
 def extract_keyword(s):
     s = s.replace(' ','')
@@ -46,9 +53,12 @@ def get_score(s1,s2):
     sim = float(intersection)/union if union != 0 else 0
     return sim
 
+
+
+from tqdm import tqdm
 def search(question):
     max_sim = -1
-    for i in range(len(query)):
+    for i in tqdm(range(len(query))):
         cur_sim = get_score(query[i], question)
         if cur_sim > max_sim:
             max_sim = cur_sim
@@ -62,7 +72,9 @@ def search(question):
     #return "匹配问题: " + best_match_q + " == 回答: " + best_match_a
     return best_match_a
 
-
+from services.quick_search import multi_process_tag
+def get_quick_search(question):
+    return multi_process_tag(question,query,answer)
 
 async def fetch_NJUbot(que):
     try:
