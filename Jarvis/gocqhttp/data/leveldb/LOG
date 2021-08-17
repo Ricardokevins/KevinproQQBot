@@ -324,3 +324,12 @@
 11:41:42.617325 table@remove removed @76
 11:41:42.617840 table@remove removed @73
 11:41:42.618374 table@remove removed @72
+=============== Aug 17, 2021 (CST) ===============
+11:54:13.757412 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:54:13.759465 version@stat F·[0 1] S·90KiB[0B 90KiB] Sc·[0.00 0.00]
+11:54:13.759465 db@open opening
+11:54:13.759465 journal@recovery F·1
+11:54:13.759465 journal@recovery recovering @83
+11:54:13.760448 version@stat F·[0 1] S·90KiB[0B 90KiB] Sc·[0.00 0.00]
+11:54:13.952504 db@janitor F·3 G·0
+11:54:13.952504 db@open done T·193.0388ms
