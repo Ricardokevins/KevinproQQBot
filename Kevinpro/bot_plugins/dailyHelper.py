@@ -71,13 +71,38 @@ async def _():
             TbeD.append(t)
     dump(TbeD)
 
+@on_command('所有日程',  permission=weather_permission)
+async def _(session: CommandSession):
+    Tasks = load()
+    bot = nonebot.get_bot()
+    if len(Tasks) == 0:
+        try:
+            await send_to_superusers(bot,message= '暂无待办日程')
+        except CQHttpError:
+                pass
+    else:
+        for i in Tasks:
+            await send_to_superusers(bot,message= i.task + ' ' + i.time)
+
+@on_command('日程移除',  permission=weather_permission)
+async def _(session: CommandSession):
+    Tasks = load()
+    args = session.current_arg_text.strip().split(' ', 1)
+    if not args[0]:
+        task = await session.aget(key='task', prompt='请问要移除哪个？', at_sender=True)
+    else:
+        task = args[0]
+    print(task)
+    if task != '0' and int(task) <= len(Tasks):
+        del Tasks[int(task)-2]
+    dump(Tasks)
+
 @on_command('日程', aliases=('提醒', '助手'), permission=weather_permission)
 async def _(session: CommandSession):
     # 若用户对机器人说“天气”，则此变量为 `['']`
     # 若用户对机器人说“天气 香港”，则此变量为 `['香港']`
     # 若用户对机器人说“天气 香港 详细”，则此变量为 `['香港', '详细']`
     args = session.current_arg_text.strip().split(' ', 1)
-    
     if not args[0]:
         task = await session.aget(key='task', prompt='请问要提醒啥？', at_sender=True)
     else:
