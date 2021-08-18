@@ -2,28 +2,32 @@ from aiocache import cached
 import requests
 import pandas as pd
 import time
+from fake_useragent import UserAgent
 import os
 # follow https://zhuanlan.zhihu.com/p/362213028
 
+
 def save_hot_list() -> None:
     # 请求头
-    headers = {
-        'User-Agent': 'osee2unifiedRelease/4318 osee2unifiedReleaseVersion/7.7.0 Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148',
-        'Host': 'api.zhihu.com',
-    }
+    ua = UserAgent()
+    # headers = {
+    #     #'User-Agent': 'osee2unifiedRelease/4318 osee2unifiedReleaseVersion/7.7.0 Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148',
+    #     'User-Agent':"Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) (Engine, like URL) Mobile/12B440 MicroMessenger/6.0.1 NetType/3G+",
+    #     'Host': 'api.zhihu.com',
+    # }
+    headers={'User-Agent':ua.random,'Host': 'api.zhihu.com'}
     # 请求参数
     params = (
         ('limit', '50'),
         ('reverse_order', '0'),
     )
     # 发送请求
-    # proxies = {
-    # "http": "http://127.0.0.1:7890",
-    # }
+
     proxies = {'http': None, 'https': None}
+    
     response = requests.get(
         'https://zhihu.com/topstory/hot-list', proxies=proxies,headers=headers, params=params)
-
+    #print(response.json())
     items = response.json()['data']
     rows = []
 
