@@ -60,18 +60,18 @@ weather_permission = lambda sender: (not sender.is_privatechat) or sender.is_sup
 async def ww():
     bot = nonebot.get_bot()
     now = datetime.now(pytz.timezone('Asia/Shanghai'))
-    Tasks = load()
-    print("Hit")
+    Tasks = load() # 读取文件获取任务列表
     TbeD = []
     for t in Tasks:
         if t.compaire_time() == 1:
             try:
-                await send_to_superusers(bot,message= t.task)
+                await send_to_superusers(bot,message= t.task) # 需要处理，发送消息
             except CQHttpError:
                 pass
         else:
             TbeD.append(t)
-    dump(TbeD)
+    dump(TbeD) # 写回文件
+
 
 @on_command('所有日程',  permission=weather_permission)
 async def oo(session: CommandSession):

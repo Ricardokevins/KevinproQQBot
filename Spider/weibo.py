@@ -49,11 +49,11 @@ with open(output_folder+'/'+'Top50weibo'+".txt",mode="w",encoding='utf-8') as f:
     for i in Top:
         f.write(i+'\n')
 
-from pattern_event_triples import ExtractEvent
-for i in Top:
-    content = i.split('\t')[1]
-    handler = ExtractEvent()
-    events, spos = handler.phrase_ip(content)
-    spos = [i for i in spos if i[0] and i[2]]
-    print('svos', spos)
+# from pattern_event_triples import ExtractEvent
+# for i in Top:
+#     content = i.split('\t')[1]
+#     handler = ExtractEvent()
+#     events, spos = handler.phrase_ip(content)
+#     spos = [i for i in spos if i[0] and i[2]]
+#     print('svos', spos)
 
