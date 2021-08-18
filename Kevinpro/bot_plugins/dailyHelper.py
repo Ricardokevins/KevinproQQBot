@@ -28,6 +28,7 @@ class dailytask():
         y = datetime.now()
         x = datetime.strptime(self.time, '%Y-%m-%d %H:%M:%S')
         diff = y - x
+        print(self.task,diff.seconds)
         if diff.seconds <= 600:
             return 1
         else:
@@ -56,10 +57,11 @@ def dump(Tasks):
 weather_permission = lambda sender: (not sender.is_privatechat) or sender.is_superuser
 
 @nonebot.scheduler.scheduled_job('interval', seconds=5)
-async def _():
+async def ww():
     bot = nonebot.get_bot()
     now = datetime.now(pytz.timezone('Asia/Shanghai'))
     Tasks = load()
+    print("Hit")
     TbeD = []
     for t in Tasks:
         if t.compaire_time() == 1:
@@ -72,7 +74,7 @@ async def _():
     dump(TbeD)
 
 @on_command('所有日程',  permission=weather_permission)
-async def _(session: CommandSession):
+async def oo(session: CommandSession):
     Tasks = load()
     bot = nonebot.get_bot()
     if len(Tasks) == 0:
@@ -85,7 +87,7 @@ async def _(session: CommandSession):
             await send_to_superusers(bot,message= i.task + ' ' + i.time)
 
 @on_command('日程移除',  permission=weather_permission)
-async def _(session: CommandSession):
+async def pp(session: CommandSession):
     Tasks = load()
     args = session.current_arg_text.strip().split(' ', 1)
     if not args[0]:

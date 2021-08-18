@@ -11,8 +11,11 @@
 
 # print(diff.seconds)
 
-import jionlp as jio
-import time
-text = '1分钟后叫我'
-res = jio.parse_time(text, time_base=time.time())
-print(res)
+# import jionlp as jio
+# import time
+# text = '1分钟后叫我'
+# res = jio.parse_time(text, time_base=time.time())
+# print(res)
+
+# -*- coding:utf-8 -*-
+__author__ = 'yangxin_ryan'
