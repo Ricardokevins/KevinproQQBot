@@ -86,11 +86,25 @@ def run():
 
     model = WeiBo()
     Top = model.run()
+    Bot_data = 'D:\\KevinproPython\\workspace\\KevinproQQBot\\Kevinpro\\data'
+    stamp = time.strftime("%H-%M", time.localtime()) 
+    print("Writing At {} ".format(stamp))
+    
     with open(output_folder+'/'+'Top50weibo'+".txt",mode="w",encoding='utf-8') as f:
         for i in Top:
             f.write(i+'\n')
+    
+    with open(Bot_data+'/'+'Top50weibo'+".txt",mode="w",encoding='utf-8') as f:
+        for i in Top:
+            f.write(i+'\n')
+
+
     Top = save_hot_list()
     with open(output_folder+'/'+'Top50Zhihu'+".txt",mode="w",encoding='utf-8') as f:
+        for i in Top:
+            f.write(i+'\n')
+
+    with open(Bot_data+'/'+'Top50Zhihu'+".txt",mode="w",encoding='utf-8') as f:
         for i in Top:
             f.write(i+'\n')
 
