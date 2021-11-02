@@ -48,6 +48,9 @@ class WeiBo(object):
         rank = html.xpath('//td[@class="td-01 ranktop"]/text()') 
         affair = html.xpath('//td[@class="td-02"]/a/text()') 
         view = html.xpath('//td[@class="td-02"]/span/text()') 
+        if len(affair) == 0:
+            print("HIT BUG IN WEIBO")
+            return affair
         top = affair[0] 
         affair = affair[1:] 
         Topk = []
@@ -91,12 +94,14 @@ def run():
     print("Writing At {} ".format(stamp))
     
     with open(output_folder+'/'+'Top50weibo'+".txt",mode="w",encoding='utf-8') as f:
-        for i in Top:
-            f.write(i+'\n')
-    
+        if len(Top) != 0:
+            for i in Top:
+                f.write(i+'\n')
+        
     with open(Bot_data+'/'+'Top50weibo'+".txt",mode="w",encoding='utf-8') as f:
-        for i in Top:
-            f.write(i+'\n')
+        if len(Top) != 0:
+            for i in Top:
+                f.write(i+'\n')
 
 
     Top = save_hot_list()
@@ -115,6 +120,7 @@ def dojob():
     #添加任务,时间间隔2S
     scheduler.add_job(run, 'interval', minutes=30, id='weibo_top')
     scheduler.start()
+    
 dojob()
 
 

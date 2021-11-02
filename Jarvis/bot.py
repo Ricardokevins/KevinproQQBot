@@ -16,11 +16,15 @@ from nonebot.adapters.cqhttp import Bot as CQHTTPBot
 
 # You can pass some keyword args config to init function
 nonebot.init()
+nonebot.init(apscheduler_autostart=True)
+nonebot.init(apscheduler_config={
+    "apscheduler.timezone": "Asia/Shanghai"
+})
 app = nonebot.get_asgi()
 
 driver = nonebot.get_driver()
 driver.register_adapter("cqhttp", CQHTTPBot)
-
+nonebot.load_plugins("src/plugins")
 nonebot.load_builtin_plugins()
 nonebot.load_from_toml("pyproject.toml")
 

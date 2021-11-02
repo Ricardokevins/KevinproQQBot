@@ -1,4 +1,0 @@
-[2021-08-15 07:38:29] [ERROR]: Protocol -> unexpected disconnect: write tcp 192.168.0.102:12938->120.232.18.180:8080: wsasend: An existing connection was forcibly closed by the remote host. 
-[2021-08-15 07:38:29] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 36.155.229.117:443: connectex: A socket operation was attempted to an unreachable host. 
-[2021-08-15 07:38:29] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 36.155.229.117:443: connectex: A socket operation was attempted to an unreachable host. 
-[2021-08-15 07:38:29] [WARNING]: Bot已离线: connection dropped by server. 

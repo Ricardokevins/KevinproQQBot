@@ -1,0 +1,12 @@
+[2021-10-23 15:15:11] [ERROR]: Protocol -> exchange_emp error: 15 
+[2021-10-23 15:15:11] [WARNING]: 恢复会话失败: exchange_emp failed , 尝试使用正常流程登录. 
+[2021-10-23 15:15:16] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-10-23 15:15:21] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-10-23 15:15:26] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-10-23 15:15:31] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-10-23 15:15:36] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-10-23 15:15:41] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-10-23 15:15:46] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-10-23 15:15:51] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-10-23 15:15:56] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8765/ws 时出现错误: dial tcp 127.0.0.1:8765: connectex: No connection could be made because the target machine actively refused it. 
+[2021-10-23 15:20:14] [ERROR]: Protocol -> unexpected disconnect: EOF 
