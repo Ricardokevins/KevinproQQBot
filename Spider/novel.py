@@ -66,7 +66,7 @@ def write2file(text,file):
 def getFromNext():
     target = 'https://m.diershubao.org/0_13/4954.html'
     target = "https://m.diershubao.org/0_13/4960.html"
-    target = "https://m.diershubao.org/0_13/5393.html"
+    target = "https://m.diershubao.org/0_13/5400.html"
     cached_text = []
     while 1:
         print(target)
