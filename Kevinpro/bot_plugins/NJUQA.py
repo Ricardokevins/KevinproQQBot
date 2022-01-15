@@ -12,7 +12,7 @@ __plugin_usage__ = (
 )
 
 
-weather_permission = lambda sender: (not sender.is_privatechat) or sender.is_superuser
+weather_permission = lambda sender: (sender.is_privatechat) or sender.is_superuser
 
 
 @on_command('问答', aliases=('问'), permission=weather_permission)
